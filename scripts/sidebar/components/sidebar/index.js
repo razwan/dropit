@@ -9,6 +9,7 @@ const Sidebar = () => (
     name="dropit-sidebar"
     title="Drop it: Unsplash.com"
   >
+
     <PhotoList />
   </PluginSidebar>
 );

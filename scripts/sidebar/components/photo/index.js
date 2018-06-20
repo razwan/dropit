@@ -94,6 +94,12 @@ class PhotoList extends Component {
         {!loading && (
           <div className="dropit-sidebar-photo__toolbar">
             <IconButton
+                className="button"
+                icon="art"
+                onClick={this.uploadPhoto}
+                label={__("Pick Color Paletter", "dropit")}
+            />
+            <IconButton
               className="button"
               icon="upload"
               onClick={this.uploadPhoto}
